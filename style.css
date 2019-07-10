@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chess-field{
+  display: flex;
+  flex-wrap: wrap;
+}
+.chess-field{
+    width: 600px;
+    height: 600px;
+    border: 1px solid #000;
+}
+
+.chess-block{
+  width: 75px;
+  height: 75px;
+
+}
+
+.grey-block{
+  background-color: #8b8b8b;
+}
